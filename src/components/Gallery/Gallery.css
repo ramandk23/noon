@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:20px;
+  }
+  
+  .gallery-item {
+    flex: 1 1 calc(25% - 20px);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-title {
+    position: absolute;
+    font-size:25px;
+    top: 50%;
+    left: 30%;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex: 1 1 calc(100% - 20px);
+    }
+  }
+  
