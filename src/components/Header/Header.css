@@ -64,13 +64,16 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .nav ul {
     flex-direction: row;
-    gap: 5px;
+    gap:1px;
   }
-
+  .nav a img{
+    width:15px;
+    height:15px;
+  }
   .logo {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
