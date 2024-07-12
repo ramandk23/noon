@@ -46,6 +46,9 @@
 }
 
 @media (max-width: 480px) {
+  .banner{
+    height: 70vh;
+  }
   .banner-text h1 {
     font-size: 32px;
   }
