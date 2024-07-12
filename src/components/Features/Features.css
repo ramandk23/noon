@@ -91,6 +91,7 @@
 @media (max-width: 480px) {
   .features-item {
     flex: 1 1 calc(100% - 20px); 
+    margin: 0px 10px 0px 10px;
   }
   .features-title {
     font-size: 14px;
@@ -103,6 +104,6 @@
   }
   .feature-content {
     font-size: 9px;
-    margin-top: 20px;
+    margin: 0px 5px 0px 5px;
   }
 }
