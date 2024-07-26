@@ -5,10 +5,10 @@ const Footer = () => {
     <footer class="footer">
     <div class="footer-content">
       <div class="footer-section">
-        <p>&copy; 2023 Pineapple Inc.</p>
+        <p>&copy; 2024 Noon Inc.</p>
         <p>All rights reserved.</p>
-        <p>800-123-4567</p>
-        <p>Business Inquiries: email@example.com</p>
+        <p>123-456-7890</p>
+        <p>Business Inquiries: noon@ysq.com</p>
       </div>
       <div class="footer-section">
         <p>Newsroom</p>
